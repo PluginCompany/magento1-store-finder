@@ -1,0 +1,35 @@
+<?php
+/**
+ * Copyright (c) 2014-2026 Plugin Company
+ *
+ * This file is part of Store Finder, released under the MIT License.
+ * See the LICENSE file in the project root.
+ */
+/**
+ * Store location list template
+ *
+ * @category    Plugincompany
+ * @package     Plugincompany_Storelocator
+ * @author      Milan Simek
+ */
+?>
+<?php
+    $helper = Mage::helper('plugincompany_storelocator');
+?>
+{{#location}}
+<div class="loc-name">{{locname}}</div>
+<div>{{{address}}}</div>
+<div>{{{address2}}}</div>
+<div style="white-space:nowrap">{{{city}}}, {{{state}}} {{{postal}}}</div>
+<div>{{{hours1}}}</div>
+<div>{{{hours2}}}</div>
+<div>{{{hours3}}}</div>
+<div>{{{phone}}}</div>
+{{#if ratingenabled}}
+<div class="loc-rating starrr" data-rating='{{rating}}'  data-disabled='true'>{{#displaystars}}{{rating}}{{/displaystars}}</div>
+{{/if}}
+{{#if web}}
+    <div><a href="{{web}}" target="_blank"><?php echo $helper->__('Visit website') ?></a></div>
+{{/if}}
+<div class="loc-web"><a style="" href="{{pageurl}}"><?php echo $helper->__('View store details') ?></a></div>
+{{/location}}

@@ -1,0 +1,14 @@
+app/code/local/Plugincompany/Storelocator app/code/local/Plugincompany/Storelocator
+app/design/adminhtml/default/default/layout/plugincompany_storelocator.xml app/design/adminhtml/default/default/layout/plugincompany_storelocator.xml
+app/design/adminhtml/default/default/template/plugincompany/storelocator app/design/adminhtml/default/default/template/plugincompany/storelocator
+app/design/frontend/base/default/layout/plugincompany_storelocator.xml app/design/frontend/base/default/layout/plugincompany_storelocator.xml
+app/design/frontend/base/default/template/plugincompany_storelocator app/design/frontend/base/default/template/plugincompany_storelocator
+app/etc/modules/Plugincompany_Storelocator.xml app/etc/modules/Plugincompany_Storelocator.xml
+app/locale/en_US/Plugincompany_Storelocator.csv app/locale/en_US/Plugincompany_Storelocator.csv
+js/plugincompany/head.load.min.js js/plugincompany/head.load.min.js
+js/plugincompany/jquerynoconflict.js js/plugincompany/jquerynoconflict.js
+js/plugincompany/starrr js/plugincompany/starrr
+js/plugincompany/storelocator js/plugincompany/storelocator
+skin/frontend/base/default/css/plugincompany/storelocator skin/frontend/base/default/css/plugincompany/storelocator
+skin/frontend/base/default/images/placeholder/storelocation.jpg skin/frontend/base/default/images/placeholder/storelocation.jpg
+skin/frontend/base/default/images/plugincompany/storelocator skin/frontend/base/default/images/plugincompany/storelocator
